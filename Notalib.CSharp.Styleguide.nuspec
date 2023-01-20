@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Notalib.CSharp.Styleguide</id>
+    <version>$version$</version>
+    <description>C# Styleguide</description>
+    <authors>Nota</authors>
+    <dependencies>
+      <dependency id="StyleCop.Analyzers" version="1.*" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="StyleCop.ruleset" target="" />
+    <file src="Notalib.CSharp.Styleguide.props" target="build" />
+  </files>
+</package>
